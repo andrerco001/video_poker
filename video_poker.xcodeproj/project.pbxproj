@@ -148,6 +148,7 @@
 		9B56DA5F1F9FE9BF006316B3 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56DA411F9FE9BF006316B3 /* Icon-256.png */; };
 		9B56DA601F9FE9BF006316B3 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56DA421F9FE9BF006316B3 /* Icon-16.png */; };
 		9B56DA611F9FE9BF006316B3 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56DA431F9FE9BF006316B3 /* Icon-512.png */; };
+		9B56DA631FA006D8006316B3 /* PokerHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56DA621FA006D8006316B3 /* PokerHands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -294,6 +295,7 @@
 		9B56DA411F9FE9BF006316B3 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
 		9B56DA421F9FE9BF006316B3 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
 		9B56DA431F9FE9BF006316B3 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		9B56DA621FA006D8006316B3 /* PokerHands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerHands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 		9B56D9391F9FC222006316B3 /* video_poker */ = {
 			isa = PBXGroup;
 			children = (
+				9B56DA621FA006D8006316B3 /* PokerHands.swift */,
 				9B56D94D1F9FC96C006316B3 /* fonts */,
 				9B56D94C1F9FC959006316B3 /* images */,
 				9B56D93A1F9FC222006316B3 /* AppDelegate.swift */,
@@ -729,6 +732,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B56D93D1F9FC222006316B3 /* ViewController.swift in Sources */,
+				9B56DA631FA006D8006316B3 /* PokerHands.swift in Sources */,
 				9B56D93B1F9FC222006316B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
