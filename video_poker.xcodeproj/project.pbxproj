@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4C92601FA24C0C000860AE /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C925F1FA24C0C000860AE /* UserDefaultsManager.swift */; };
 		9B56D93B1F9FC222006316B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D93A1F9FC222006316B3 /* AppDelegate.swift */; };
 		9B56D93D1F9FC222006316B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D93C1F9FC222006316B3 /* ViewController.swift */; };
 		9B56D9401F9FC222006316B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D93E1F9FC222006316B3 /* Main.storyboard */; };
@@ -152,6 +153,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B4C925F1FA24C0C000860AE /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		9B56D9371F9FC222006316B3 /* video_poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video_poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56D93A1F9FC222006316B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B56D93C1F9FC222006316B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 		9B56D9391F9FC222006316B3 /* video_poker */ = {
 			isa = PBXGroup;
 			children = (
+				9B4C925F1FA24C0C000860AE /* UserDefaultsManager.swift */,
 				9B56DA621FA006D8006316B3 /* PokerHands.swift */,
 				9B56D94D1F9FC96C006316B3 /* fonts */,
 				9B56D94C1F9FC959006316B3 /* images */,
@@ -733,6 +736,7 @@
 			files = (
 				9B56D93D1F9FC222006316B3 /* ViewController.swift in Sources */,
 				9B56DA631FA006D8006316B3 /* PokerHands.swift in Sources */,
+				9B4C92601FA24C0C000860AE /* UserDefaultsManager.swift in Sources */,
 				9B56D93B1F9FC222006316B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
