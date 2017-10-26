@@ -35,15 +35,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Breetty Regular.otf</string>
-		<string>ethnocentric rg.ttf</string>
 		<string>couture-bld.otf</string>
-		<string>DODGE.ttf</string>
-		<string>PLANK___.TTF</string>
-		<string>space age.ttf</string>
-		<string>STJEDISE.TTF</string>
-		<string>UndergroundNF.ttf</string>
-		<string>varsity_regular.ttf</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

@@ -251,7 +251,7 @@ class ViewController: UIViewController {
             }
         }
         //---
-        Timer.scheduledTimer(timeInterval: 2.55, //temp de delay de 2.55 segonde.
+        Timer.scheduledTimer(timeInterval: 2.75, //temp de delay de 2.75 segonde.
                              target: self,
                              selector: #selector(displayRandomCards),
                              userInfo: nil,
@@ -443,23 +443,7 @@ class ViewController: UIViewController {
         //---
     }
     
-    //--------------------//------------------------
-    // BOUTON RECOMMENCER ////////////////////////////////////////
-    
-    @IBAction func recommencer(sender: UIButton) {
    
-        if sender.tag == 500 {
-         bet = 0
-         betLabel.text = "MISE : \(bet)"
-         credits = 2000
-         creditsLabel.text = "CRÉDITS : \(credits)"
-         dealButton.alpha = 1.0
-         resetBackOfCards()
-         return
-         }
-        
-    }
-    /////////////////////////////////////////////////////////////
     
     //----------------------//----------------------
     func resetBackOfCards() {
@@ -482,5 +466,25 @@ class ViewController: UIViewController {
         //---
     }
     //----------------------//----------------------
+
+    //--------------------//------------------------
+    // BOUTON RECOMMENCER ////////////////////////////////////////
+    
+    @IBAction func recommencer(sender: UIButton) {
+     
+        if sender.tag == 500 {
+            bet = 0
+            betLabel.text = "MISE : \(bet)"
+            credits = 2000
+            creditsLabel.text = "CRÉDITS : \(credits)"
+            dealButton.alpha = 1.0
+            tempLabel.text = "BONNE CHANCE"
+            resetBackOfCards()
+            return
+        }
+        
+    }
+/////////////////////////////////////////////////////////////
+
 }
 //----------------------//----------------------
