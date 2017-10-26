@@ -62,6 +62,13 @@ class ViewController: UIViewController {
     var arrOfKeepLabels: [UILabel]!
     
     
+    
+    
+    let saveScore = UserDefaultsManager() //methode que va appeler le user defaults manager ///////////// USER DEFAULTS MANAGER //////////////////
+    
+   
+    
+    
     //---
     //Variable que va faire le gestion si peux ou no selectioner les cartes.
     var permissionToSelectCards = false
@@ -90,6 +97,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         //---
         super.viewDidLoad()
+
+        
+        // il commander le objet du User Defaults Manager /////////////////////// USER DEFAULTS MANAGER POUR GARDER LE CREDITS
+        
+        if !saveScore.doesKeyExist(theKey: "credits") {
+            saveScore.setKey(theValue: 2000 as AnyObject, theKey: "credits")
+        } else {
+            credits = saveScore.getValue(theKey: "credits") as! Int
+        }
+        
+        
         //---
         //va creer les objets a partur des images
         createCardObjectsFromImages()
