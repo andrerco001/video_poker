@@ -13,50 +13,7 @@
 		9B56D9401F9FC222006316B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D93E1F9FC222006316B3 /* Main.storyboard */; };
 		9B56D9421F9FC222006316B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9411F9FC222006316B3 /* Assets.xcassets */; };
 		9B56D9451F9FC222006316B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9431F9FC222006316B3 /* LaunchScreen.storyboard */; };
-		9B56D97A1F9FE781006316B3 /* PLANK___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D94E1F9FE77C006316B3 /* PLANK___.TTF */; };
-		9B56D97B1F9FE781006316B3 /* airstrikebullet.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D94F1F9FE77C006316B3 /* airstrikebullet.ttf */; };
-		9B56D97C1F9FE781006316B3 /* ethnocentric rg it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9501F9FE77C006316B3 /* ethnocentric rg it.ttf */; };
-		9B56D97D1F9FE781006316B3 /* MinstrelPosterNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9511F9FE77C006316B3 /* MinstrelPosterNF.otf */; };
-		9B56D97E1F9FE781006316B3 /* MinstrelPosterNF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9521F9FE77C006316B3 /* MinstrelPosterNF.ttf */; };
-		9B56D97F1F9FE781006316B3 /* Breetty Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9531F9FE77C006316B3 /* Breetty Regular.otf */; };
-		9B56D9801F9FE781006316B3 /* October Moon - TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9541F9FE77C006316B3 /* October Moon - TTF.ttf */; };
-		9B56D9811F9FE781006316B3 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9551F9FE77C006316B3 /* Starjedi.ttf */; };
-		9B56D9821F9FE781006316B3 /* airstrike.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9561F9FE77C006316B3 /* airstrike.ttf */; };
-		9B56D9831F9FE781006316B3 /* Indiana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9571F9FE77C006316B3 /* Indiana.ttf */; };
-		9B56D9841F9FE781006316B3 /* airstrikeout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9581F9FE77C006316B3 /* airstrikeout.ttf */; };
-		9B56D9851F9FE781006316B3 /* ANTSYPAN.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9591F9FE77C006316B3 /* ANTSYPAN.TTF */; };
-		9B56D9861F9FE781006316B3 /* DODGE.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95A1F9FE77D006316B3 /* DODGE.ttf */; };
-		9B56D9871F9FE781006316B3 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95B1F9FE77D006316B3 /* Starjout.ttf */; };
-		9B56D9881F9FE781006316B3 /* MinstrelPosterTwoNF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95C1F9FE77D006316B3 /* MinstrelPosterTwoNF.ttf */; };
-		9B56D9891F9FE781006316B3 /* airstrikeexpand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95D1F9FE77D006316B3 /* airstrikeexpand.ttf */; };
-		9B56D98A1F9FE781006316B3 /* airstrikegrad.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95E1F9FE77D006316B3 /* airstrikegrad.ttf */; };
-		9B56D98B1F9FE781006316B3 /* airstrikelaser.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D95F1F9FE77D006316B3 /* airstrikelaser.ttf */; };
-		9B56D98C1F9FE781006316B3 /* STJEDISE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9601F9FE77D006316B3 /* STJEDISE.TTF */; };
-		9B56D98D1F9FE781006316B3 /* varsity_regular 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9611F9FE77D006316B3 /* varsity_regular 2.ttf */; };
-		9B56D98E1F9FE781006316B3 /* TeamSpiritNF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9621F9FE77D006316B3 /* TeamSpiritNF.ttf */; };
-		9B56D98F1F9FE781006316B3 /* UndergroundNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9631F9FE77D006316B3 /* UndergroundNF.otf */; };
-		9B56D9901F9FE781006316B3 /* ethnocentric rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9641F9FE77E006316B3 /* ethnocentric rg.ttf */; };
-		9B56D9911F9FE781006316B3 /* airstrikeacad.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9651F9FE77E006316B3 /* airstrikeacad.ttf */; };
-		9B56D9921F9FE781006316B3 /* airstrikebold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9661F9FE77E006316B3 /* airstrikebold.ttf */; };
-		9B56D9931F9FE781006316B3 /* airstrikecond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9671F9FE77E006316B3 /* airstrikecond.ttf */; };
-		9B56D9941F9FE781006316B3 /* airstrikehalf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9681F9FE77E006316B3 /* airstrikehalf.ttf */; };
-		9B56D9951F9FE781006316B3 /* Breetty Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9691F9FE77E006316B3 /* Breetty Italic.otf */; };
-		9B56D9961F9FE781006316B3 /* airstrikeb3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96A1F9FE77E006316B3 /* airstrikeb3d.ttf */; };
-		9B56D9971F9FE781006316B3 /* airstrikechrome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96B1F9FE77E006316B3 /* airstrikechrome.ttf */; };
-		9B56D9981F9FE781006316B3 /* MinstrelPosterTwoNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96C1F9FE77F006316B3 /* MinstrelPosterTwoNF.otf */; };
-		9B56D9991F9FE781006316B3 /* October Moon - OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96D1F9FE77F006316B3 /* October Moon - OTF.otf */; };
-		9B56D99A1F9FE781006316B3 /* GROBOLD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96E1F9FE77F006316B3 /* GROBOLD.ttf */; };
-		9B56D99B1F9FE781006316B3 /* space age.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D96F1F9FE77F006316B3 /* space age.ttf */; };
 		9B56D99C1F9FE781006316B3 /* couture-bld.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9701F9FE77F006316B3 /* couture-bld.otf */; };
-		9B56D99D1F9FE781006316B3 /* good times rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9711F9FE77F006316B3 /* good times rg.ttf */; };
-		9B56D99E1F9FE781006316B3 /* airstrikeplat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9721F9FE780006316B3 /* airstrikeplat.ttf */; };
-		9B56D99F1F9FE781006316B3 /* QUIGLEYW.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9731F9FE780006316B3 /* QUIGLEYW.TTF */; };
-		9B56D9A01F9FE781006316B3 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9741F9FE780006316B3 /* Starjhol.ttf */; };
-		9B56D9A11F9FE781006316B3 /* UndergroundNF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9751F9FE780006316B3 /* UndergroundNF.ttf */; };
-		9B56D9A21F9FE781006316B3 /* Engagement-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9761F9FE780006316B3 /* Engagement-Regular.ttf */; };
-		9B56D9A31F9FE781006316B3 /* varsity_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9771F9FE780006316B3 /* varsity_regular.ttf */; };
-		9B56D9A41F9FE781006316B3 /* TeamSpiritNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9781F9FE780006316B3 /* TeamSpiritNF.otf */; };
-		9B56D9A51F9FE781006316B3 /* airstrike3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9791F9FE780006316B3 /* airstrike3d.ttf */; };
 		9B56D9AD1F9FE87C006316B3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9A91F9FE87C006316B3 /* logo.png */; };
 		9B56D9AE1F9FE87C006316B3 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9AA1F9FE87C006316B3 /* delete.png */; };
 		9B56D9AF1F9FE87C006316B3 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56D9AB1F9FE87C006316B3 /* buttons.png */; };
@@ -161,50 +118,7 @@
 		9B56D9411F9FC222006316B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B56D9441F9FC222006316B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B56D9461F9FC222006316B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B56D94E1F9FE77C006316B3 /* PLANK___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PLANK___.TTF"; sourceTree = "<group>"; };
-		9B56D94F1F9FE77C006316B3 /* airstrikebullet.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikebullet.ttf; sourceTree = "<group>"; };
-		9B56D9501F9FE77C006316B3 /* ethnocentric rg it.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg it.ttf"; sourceTree = "<group>"; };
-		9B56D9511F9FE77C006316B3 /* MinstrelPosterNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MinstrelPosterNF.otf; sourceTree = "<group>"; };
-		9B56D9521F9FE77C006316B3 /* MinstrelPosterNF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MinstrelPosterNF.ttf; sourceTree = "<group>"; };
-		9B56D9531F9FE77C006316B3 /* Breetty Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breetty Regular.otf"; sourceTree = "<group>"; };
-		9B56D9541F9FE77C006316B3 /* October Moon - TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "October Moon - TTF.ttf"; sourceTree = "<group>"; };
-		9B56D9551F9FE77C006316B3 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
-		9B56D9561F9FE77C006316B3 /* airstrike.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrike.ttf; sourceTree = "<group>"; };
-		9B56D9571F9FE77C006316B3 /* Indiana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Indiana.ttf; sourceTree = "<group>"; };
-		9B56D9581F9FE77C006316B3 /* airstrikeout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikeout.ttf; sourceTree = "<group>"; };
-		9B56D9591F9FE77C006316B3 /* ANTSYPAN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTSYPAN.TTF; sourceTree = "<group>"; };
-		9B56D95A1F9FE77D006316B3 /* DODGE.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DODGE.ttf; sourceTree = "<group>"; };
-		9B56D95B1F9FE77D006316B3 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
-		9B56D95C1F9FE77D006316B3 /* MinstrelPosterTwoNF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MinstrelPosterTwoNF.ttf; sourceTree = "<group>"; };
-		9B56D95D1F9FE77D006316B3 /* airstrikeexpand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikeexpand.ttf; sourceTree = "<group>"; };
-		9B56D95E1F9FE77D006316B3 /* airstrikegrad.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikegrad.ttf; sourceTree = "<group>"; };
-		9B56D95F1F9FE77D006316B3 /* airstrikelaser.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikelaser.ttf; sourceTree = "<group>"; };
-		9B56D9601F9FE77D006316B3 /* STJEDISE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STJEDISE.TTF; sourceTree = "<group>"; };
-		9B56D9611F9FE77D006316B3 /* varsity_regular 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "varsity_regular 2.ttf"; sourceTree = "<group>"; };
-		9B56D9621F9FE77D006316B3 /* TeamSpiritNF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TeamSpiritNF.ttf; sourceTree = "<group>"; };
-		9B56D9631F9FE77D006316B3 /* UndergroundNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UndergroundNF.otf; sourceTree = "<group>"; };
-		9B56D9641F9FE77E006316B3 /* ethnocentric rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ethnocentric rg.ttf"; sourceTree = "<group>"; };
-		9B56D9651F9FE77E006316B3 /* airstrikeacad.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikeacad.ttf; sourceTree = "<group>"; };
-		9B56D9661F9FE77E006316B3 /* airstrikebold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikebold.ttf; sourceTree = "<group>"; };
-		9B56D9671F9FE77E006316B3 /* airstrikecond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikecond.ttf; sourceTree = "<group>"; };
-		9B56D9681F9FE77E006316B3 /* airstrikehalf.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikehalf.ttf; sourceTree = "<group>"; };
-		9B56D9691F9FE77E006316B3 /* Breetty Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breetty Italic.otf"; sourceTree = "<group>"; };
-		9B56D96A1F9FE77E006316B3 /* airstrikeb3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikeb3d.ttf; sourceTree = "<group>"; };
-		9B56D96B1F9FE77E006316B3 /* airstrikechrome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikechrome.ttf; sourceTree = "<group>"; };
-		9B56D96C1F9FE77F006316B3 /* MinstrelPosterTwoNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MinstrelPosterTwoNF.otf; sourceTree = "<group>"; };
-		9B56D96D1F9FE77F006316B3 /* October Moon - OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "October Moon - OTF.otf"; sourceTree = "<group>"; };
-		9B56D96E1F9FE77F006316B3 /* GROBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GROBOLD.ttf; sourceTree = "<group>"; };
-		9B56D96F1F9FE77F006316B3 /* space age.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "space age.ttf"; sourceTree = "<group>"; };
 		9B56D9701F9FE77F006316B3 /* couture-bld.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "couture-bld.otf"; sourceTree = "<group>"; };
-		9B56D9711F9FE77F006316B3 /* good times rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "good times rg.ttf"; sourceTree = "<group>"; };
-		9B56D9721F9FE780006316B3 /* airstrikeplat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrikeplat.ttf; sourceTree = "<group>"; };
-		9B56D9731F9FE780006316B3 /* QUIGLEYW.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = QUIGLEYW.TTF; sourceTree = "<group>"; };
-		9B56D9741F9FE780006316B3 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
-		9B56D9751F9FE780006316B3 /* UndergroundNF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UndergroundNF.ttf; sourceTree = "<group>"; };
-		9B56D9761F9FE780006316B3 /* Engagement-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Engagement-Regular.ttf"; sourceTree = "<group>"; };
-		9B56D9771F9FE780006316B3 /* varsity_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = varsity_regular.ttf; sourceTree = "<group>"; };
-		9B56D9781F9FE780006316B3 /* TeamSpiritNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TeamSpiritNF.otf; sourceTree = "<group>"; };
-		9B56D9791F9FE780006316B3 /* airstrike3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = airstrike3d.ttf; sourceTree = "<group>"; };
 		9B56D9A91F9FE87C006316B3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		9B56D9AA1F9FE87C006316B3 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		9B56D9AB1F9FE87C006316B3 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
@@ -358,50 +272,7 @@
 		9B56D94D1F9FC96C006316B3 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				9B56D9561F9FE77C006316B3 /* airstrike.ttf */,
-				9B56D9791F9FE780006316B3 /* airstrike3d.ttf */,
-				9B56D9651F9FE77E006316B3 /* airstrikeacad.ttf */,
-				9B56D96A1F9FE77E006316B3 /* airstrikeb3d.ttf */,
-				9B56D9661F9FE77E006316B3 /* airstrikebold.ttf */,
-				9B56D94F1F9FE77C006316B3 /* airstrikebullet.ttf */,
-				9B56D96B1F9FE77E006316B3 /* airstrikechrome.ttf */,
-				9B56D9671F9FE77E006316B3 /* airstrikecond.ttf */,
-				9B56D95D1F9FE77D006316B3 /* airstrikeexpand.ttf */,
-				9B56D95E1F9FE77D006316B3 /* airstrikegrad.ttf */,
-				9B56D9681F9FE77E006316B3 /* airstrikehalf.ttf */,
-				9B56D95F1F9FE77D006316B3 /* airstrikelaser.ttf */,
-				9B56D9581F9FE77C006316B3 /* airstrikeout.ttf */,
-				9B56D9721F9FE780006316B3 /* airstrikeplat.ttf */,
-				9B56D9591F9FE77C006316B3 /* ANTSYPAN.TTF */,
-				9B56D9691F9FE77E006316B3 /* Breetty Italic.otf */,
-				9B56D9531F9FE77C006316B3 /* Breetty Regular.otf */,
 				9B56D9701F9FE77F006316B3 /* couture-bld.otf */,
-				9B56D95A1F9FE77D006316B3 /* DODGE.ttf */,
-				9B56D9761F9FE780006316B3 /* Engagement-Regular.ttf */,
-				9B56D9501F9FE77C006316B3 /* ethnocentric rg it.ttf */,
-				9B56D9641F9FE77E006316B3 /* ethnocentric rg.ttf */,
-				9B56D9711F9FE77F006316B3 /* good times rg.ttf */,
-				9B56D96E1F9FE77F006316B3 /* GROBOLD.ttf */,
-				9B56D9571F9FE77C006316B3 /* Indiana.ttf */,
-				9B56D9511F9FE77C006316B3 /* MinstrelPosterNF.otf */,
-				9B56D9521F9FE77C006316B3 /* MinstrelPosterNF.ttf */,
-				9B56D96C1F9FE77F006316B3 /* MinstrelPosterTwoNF.otf */,
-				9B56D95C1F9FE77D006316B3 /* MinstrelPosterTwoNF.ttf */,
-				9B56D96D1F9FE77F006316B3 /* October Moon - OTF.otf */,
-				9B56D9541F9FE77C006316B3 /* October Moon - TTF.ttf */,
-				9B56D94E1F9FE77C006316B3 /* PLANK___.TTF */,
-				9B56D9731F9FE780006316B3 /* QUIGLEYW.TTF */,
-				9B56D96F1F9FE77F006316B3 /* space age.ttf */,
-				9B56D9551F9FE77C006316B3 /* Starjedi.ttf */,
-				9B56D9741F9FE780006316B3 /* Starjhol.ttf */,
-				9B56D95B1F9FE77D006316B3 /* Starjout.ttf */,
-				9B56D9601F9FE77D006316B3 /* STJEDISE.TTF */,
-				9B56D9781F9FE780006316B3 /* TeamSpiritNF.otf */,
-				9B56D9621F9FE77D006316B3 /* TeamSpiritNF.ttf */,
-				9B56D9631F9FE77D006316B3 /* UndergroundNF.otf */,
-				9B56D9751F9FE780006316B3 /* UndergroundNF.ttf */,
-				9B56D9611F9FE77D006316B3 /* varsity_regular 2.ttf */,
-				9B56D9771F9FE780006316B3 /* varsity_regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -596,57 +467,33 @@
 				9B56D99C1F9FE781006316B3 /* couture-bld.otf in Resources */,
 				9B56D9F41F9FE8CF006316B3 /* 11h.png in Resources */,
 				9B56D9E91F9FE8CF006316B3 /* 13d.png in Resources */,
-				9B56D9911F9FE781006316B3 /* airstrikeacad.ttf in Resources */,
 				9B56DA071F9FE8CF006316B3 /* 8h.png in Resources */,
 				9B56D9F11F9FE8CF006316B3 /* 3c.png in Resources */,
 				9B56DA201F9FE8E0006316B3 /* blur_4.png in Resources */,
-				9B56D99E1F9FE781006316B3 /* airstrikeplat.ttf in Resources */,
 				9B56D9EC1F9FE8CF006316B3 /* 4s.png in Resources */,
 				9B56D9F91F9FE8CF006316B3 /* 1c.png in Resources */,
 				9B56DA001F9FE8CF006316B3 /* 9c.png in Resources */,
 				9B56DA141F9FE8CF006316B3 /* 8c.png in Resources */,
-				9B56D9881F9FE781006316B3 /* MinstrelPosterTwoNF.ttf in Resources */,
 				9B56DA591F9FE9BF006316B3 /* Icon-172.png in Resources */,
 				9B56DA521F9FE9BF006316B3 /* Icon-88.png in Resources */,
-				9B56D98C1F9FE781006316B3 /* STJEDISE.TTF in Resources */,
-				9B56D9841F9FE781006316B3 /* airstrikeout.ttf in Resources */,
 				9B56D9401F9FC222006316B3 /* Main.storyboard in Resources */,
 				9B56DA5C1F9FE9BF006316B3 /* Icon-1024.png in Resources */,
-				9B56D97A1F9FE781006316B3 /* PLANK___.TTF in Resources */,
 				9B56D9FF1F9FE8CF006316B3 /* back.png in Resources */,
 				9B56DA0A1F9FE8CF006316B3 /* 13h.png in Resources */,
-				9B56D9941F9FE781006316B3 /* airstrikehalf.ttf in Resources */,
 				9B56D9F21F9FE8CF006316B3 /* 3d.png in Resources */,
 				9B56D9AE1F9FE87C006316B3 /* delete.png in Resources */,
 				9B56D9FC1F9FE8CF006316B3 /* 12h.png in Resources */,
-				9B56D97F1F9FE781006316B3 /* Breetty Regular.otf in Resources */,
-				9B56D97D1F9FE781006316B3 /* MinstrelPosterNF.otf in Resources */,
-				9B56D9951F9FE781006316B3 /* Breetty Italic.otf in Resources */,
 				9B56DA111F9FE8CF006316B3 /* 6d.png in Resources */,
-				9B56D9871F9FE781006316B3 /* Starjout.ttf in Resources */,
 				9B56DA461F9FE9BF006316B3 /* Icon-87.png in Resources */,
-				9B56D99D1F9FE781006316B3 /* good times rg.ttf in Resources */,
-				9B56D9931F9FE781006316B3 /* airstrikecond.ttf in Resources */,
-				9B56D9A41F9FE781006316B3 /* TeamSpiritNF.otf in Resources */,
-				9B56D98A1F9FE781006316B3 /* airstrikegrad.ttf in Resources */,
 				9B56D9E71F9FE8CF006316B3 /* 10h.png in Resources */,
 				9B56D9FE1F9FE8CF006316B3 /* 2h.png in Resources */,
-				9B56D98B1F9FE781006316B3 /* airstrikelaser.ttf in Resources */,
 				9B56DA471F9FE9BF006316B3 /* Icon-48.png in Resources */,
-				9B56D9A01F9FE781006316B3 /* Starjhol.ttf in Resources */,
 				9B56DA241F9FE8E0006316B3 /* blur_2.png in Resources */,
 				9B56DA0C1F9FE8CF006316B3 /* 10d.png in Resources */,
-				9B56D9A51F9FE781006316B3 /* airstrike3d.ttf in Resources */,
 				9B56DA501F9FE9BF006316B3 /* Icon-144.png in Resources */,
-				9B56D9A31F9FE781006316B3 /* varsity_regular.ttf in Resources */,
-				9B56D9991F9FE781006316B3 /* October Moon - OTF.otf in Resources */,
-				9B56D9801F9FE781006316B3 /* October Moon - TTF.ttf in Resources */,
-				9B56D98F1F9FE781006316B3 /* UndergroundNF.otf in Resources */,
 				9B56D9AF1F9FE87C006316B3 /* buttons.png in Resources */,
-				9B56D99B1F9FE781006316B3 /* space age.ttf in Resources */,
 				9B56D9E81F9FE8CF006316B3 /* 6s.png in Resources */,
 				9B56DA041F9FE8CF006316B3 /* 1d.png in Resources */,
-				9B56D9901F9FE781006316B3 /* ethnocentric rg.ttf in Resources */,
 				9B56D9F81F9FE8CF006316B3 /* 9d.png in Resources */,
 				9B56DA4A1F9FE9BF006316B3 /* Icon-60.png in Resources */,
 				9B56D9EA1F9FE8CF006316B3 /* 5c.png in Resources */,
@@ -654,25 +501,17 @@
 				9B56DA0D1F9FE8CF006316B3 /* 8s.png in Resources */,
 				9B56DA1A1F9FE8CF006316B3 /* 11d.png in Resources */,
 				9B56DA081F9FE8CF006316B3 /* 7d.png in Resources */,
-				9B56D9961F9FE781006316B3 /* airstrikeb3d.ttf in Resources */,
 				9B56DA0E1F9FE8CF006316B3 /* 11c.png in Resources */,
 				9B56DA541F9FE9BF006316B3 /* Icon-55.png in Resources */,
-				9B56D9861F9FE781006316B3 /* DODGE.ttf in Resources */,
-				9B56D9891F9FE781006316B3 /* airstrikeexpand.ttf in Resources */,
 				9B56DA221F9FE8E0006316B3 /* blur_1.png in Resources */,
-				9B56D9821F9FE781006316B3 /* airstrike.ttf in Resources */,
 				9B56DA211F9FE8E0006316B3 /* blur_5.png in Resources */,
-				9B56D99A1F9FE781006316B3 /* GROBOLD.ttf in Resources */,
 				9B56DA561F9FE9BF006316B3 /* Icon-114.png in Resources */,
 				9B56DA101F9FE8CF006316B3 /* 3h.png in Resources */,
 				9B56DA011F9FE8CF006316B3 /* 5s.png in Resources */,
 				9B56DA551F9FE9BF006316B3 /* Icon-20.png in Resources */,
-				9B56D9831F9FE781006316B3 /* Indiana.ttf in Resources */,
 				9B56D9F51F9FE8CF006316B3 /* 13s.png in Resources */,
 				9B56DA531F9FE9BF006316B3 /* Icon-196.png in Resources */,
 				9B56DA571F9FE9BF006316B3 /* Icon-152.png in Resources */,
-				9B56D9851F9FE781006316B3 /* ANTSYPAN.TTF in Resources */,
-				9B56D9A21F9FE781006316B3 /* Engagement-Regular.ttf in Resources */,
 				9B56DA451F9FE9BF006316B3 /* Icon-76.png in Resources */,
 				9B56DA5E1F9FE9BF006316B3 /* Icon-120.png in Resources */,
 				9B56DA121F9FE8CF006316B3 /* 7s.png in Resources */,
@@ -696,33 +535,22 @@
 				9B56D9FB1F9FE8CF006316B3 /* 6c.png in Resources */,
 				9B56D9E61F9FE8CF006316B3 /* 3s.png in Resources */,
 				9B56D9EB1F9FE8CF006316B3 /* 5d.png in Resources */,
-				9B56D98E1F9FE781006316B3 /* TeamSpiritNF.ttf in Resources */,
 				9B56DA191F9FE8CF006316B3 /* 9h.png in Resources */,
-				9B56D98D1F9FE781006316B3 /* varsity_regular 2.ttf in Resources */,
 				9B56DA601F9FE9BF006316B3 /* Icon-16.png in Resources */,
 				9B56D9F61F9FE8CF006316B3 /* 4c.png in Resources */,
-				9B56D9971F9FE781006316B3 /* airstrikechrome.ttf in Resources */,
 				9B56DA0F1F9FE8CF006316B3 /* 8d.png in Resources */,
-				9B56D97C1F9FE781006316B3 /* ethnocentric rg it.ttf in Resources */,
-				9B56D9921F9FE781006316B3 /* airstrikebold.ttf in Resources */,
 				9B56DA491F9FE9BF006316B3 /* Icon-57.png in Resources */,
 				9B56D9F71F9FE8CF006316B3 /* 11s.png in Resources */,
 				9B56DA5D1F9FE9BF006316B3 /* Icon-29.png in Resources */,
 				9B56DA021F9FE8CF006316B3 /* 5h.png in Resources */,
 				9B56DA061F9FE8CF006316B3 /* 4d.png in Resources */,
-				9B56D97B1F9FE781006316B3 /* airstrikebullet.ttf in Resources */,
-				9B56D9A11F9FE781006316B3 /* UndergroundNF.ttf in Resources */,
-				9B56D99F1F9FE781006316B3 /* QUIGLEYW.TTF in Resources */,
 				9B56DA5B1F9FE9BF006316B3 /* Icon-50.png in Resources */,
 				9B56D9AD1F9FE87C006316B3 /* logo.png in Resources */,
 				9B56DA4F1F9FE9BF006316B3 /* Icon-72.png in Resources */,
 				9B56DA031F9FE8CF006316B3 /* 2c.png in Resources */,
 				9B56DA5F1F9FE9BF006316B3 /* Icon-256.png in Resources */,
-				9B56D9981F9FE781006316B3 /* MinstrelPosterTwoNF.otf in Resources */,
-				9B56D97E1F9FE781006316B3 /* MinstrelPosterNF.ttf in Resources */,
 				9B56DA171F9FE8CF006316B3 /* 1s.png in Resources */,
 				9B56D9FA1F9FE8CF006316B3 /* 4h.png in Resources */,
-				9B56D9811F9FE781006316B3 /* Starjedi.ttf in Resources */,
 				9B56D9F01F9FE8CF006316B3 /* 2d.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
