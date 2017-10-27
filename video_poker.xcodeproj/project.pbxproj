@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B41DC201FA35F6900761D8E /* launchsc.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B41DC1F1FA35F6900761D8E /* launchsc.png */; };
 		9B4C92601FA24C0C000860AE /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C925F1FA24C0C000860AE /* UserDefaultsManager.swift */; };
 		9B56D93B1F9FC222006316B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D93A1F9FC222006316B3 /* AppDelegate.swift */; };
 		9B56D93D1F9FC222006316B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56D93C1F9FC222006316B3 /* ViewController.swift */; };
@@ -110,6 +111,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B41DC1F1FA35F6900761D8E /* launchsc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchsc.png; sourceTree = "<group>"; };
 		9B4C925F1FA24C0C000860AE /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		9B56D9371F9FC222006316B3 /* video_poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = video_poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56D93A1F9FC222006316B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -352,6 +354,7 @@
 		9B56D9A81F9FE7C4006316B3 /* misc */ = {
 			isa = PBXGroup;
 			children = (
+				9B41DC1F1FA35F6900761D8E /* launchsc.png */,
 				9B56D9AC1F9FE87C006316B3 /* bg.png */,
 				9B56D9AB1F9FE87C006316B3 /* buttons.png */,
 				9B56D9AA1F9FE87C006316B3 /* delete.png */,
@@ -524,6 +527,7 @@
 				9B56DA131F9FE8CF006316B3 /* 9s.png in Resources */,
 				9B56DA0B1F9FE8CF006316B3 /* 10c.png in Resources */,
 				9B56D9B01F9FE87C006316B3 /* bg.png in Resources */,
+				9B41DC201FA35F6900761D8E /* launchsc.png in Resources */,
 				9B56DA091F9FE8CF006316B3 /* 6h.png in Resources */,
 				9B56DA4E1F9FE9BF006316B3 /* Icon-128.png in Resources */,
 				9B56DA4D1F9FE9BF006316B3 /* Icon-167.png in Resources */,

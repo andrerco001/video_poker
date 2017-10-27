@@ -2,6 +2,7 @@
 import UIKit
 //----------------------//----------------------
 class ViewController: UIViewController {
+    // Label que va garder Bonne Chance e tous les resultats du jue
     @IBOutlet weak var tempLabel: UILabel!
     
     //---
@@ -14,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var slot_5: UIImageView!
     
     //---
-    // Variable que va creer les images. images des cartes de l'animation. 5 images flour.
+    // Variable qui va créer les images. Images de cartes d'animation. 5 images floues.
     var card_blur_1: UIImage!
     var card_blur_2: UIImage!
     var card_blur_3: UIImage!
@@ -30,7 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var bg_5: UIView!
     
     //---
-    // Conection UIlabel responsable pour les commands garder les cartes.
+    // Conection UIlabel responsable pour les commands garder les cartes séelectionnées.
     @IBOutlet weak var keep_1: UILabel!
     @IBOutlet weak var keep_2: UILabel!
     @IBOutlet weak var keep_3: UILabel!
@@ -38,35 +39,35 @@ class ViewController: UIViewController {
     @IBOutlet weak var keep_5: UILabel!
     
     //---
-    // 3 conection. Le premiere c'est les boutons miser 25, 100 et tout.
-    // Le deuxieme est un objet text du type label qui va aparecer nos credits capable de afficher les credits.
-    // Le 3 betlabelc'est le bouton distribuer.
+    // 3 connexions. Le premier est le bouton qui distribuera les mises 25, 100 et tous les paris.
+    // Le second est un objet texte de l'étiquette de type qui va combiner les crédits capables d'afficher des crédits.
+    // Le 3 betlabel est le bouton distribuer.
     @IBOutlet weak var dealButton: UIButton!
     @IBOutlet weak var creditsLabel: UILabel!
     @IBOutlet weak var betLabel: UILabel!
 
     //---
-    // Partes des differents tableaux du code.
-    // Animations des images blur/flour
+    // Différentes parties des tables de code.
+    // Animations des images flou
     var arrOfCardImages: [UIImage]!
     
     //---
-    //animation des imageview slots
+    // Animation des imageview slots
     var arrOfSlotImageViews: [UIImageView]!
     
     //---
-    //cest le tableaux de two paus. sain vide.
-    // Chaque teow poaus va representer les cartes. 52 cartes 2 pous.
+    // sont les deux tables de lettres vides.
+    // Chacun représentera les cartes. 52 lettres.
     // Int represent le chiffre de la carte et string qui represente le sorte de la carte.
     var deckOfCards = [(Int, String)]()
     
     //---
     // Tableaux de arrier plain do UIview des backgrounds.
-    // Utilise plusierstableaux pour reagruper et utilise le boucle pour repeter tous elements du tanleaux.
+    // On utilise plusiers tableaux pour reagruper et utilise le boucle pour repeter tous elements du tableaux.
     var arrOfBackgrounds: [UIView]!
     
     //---
-    //label qui represente le mot garder.
+    // Label qui represente le mot garder.
     var arrOfKeepLabels: [UILabel]!
     
     //---
@@ -80,11 +81,11 @@ class ViewController: UIViewController {
     // Variable pour la mise le bet
     var bet = 0
     
-    // Variable des credits. on defini que l'arjant initiale sera 2 mille.
+   // Variable de crédits. il est défini que la valeur initiale sera 2 mille.
     var credits = 2000
     
     //---
-    // Variable chance est responsable pour gerer a quel momment le jouer pour est-il donner la partida.
+    // La variable Chance est responsable de la gestion quand le joueur peut commencer la partie.
     var chances = 2
     
     // Constante pour instanctiation du objet. Analiser le main
@@ -95,12 +96,12 @@ class ViewController: UIViewController {
     var handToAnalyse = [(0, ""), (0, ""), (0, ""), (0, ""), (0, "")]
     
     //---
-    // hand variable global
+    // theHand est une variable globale
     var theHand = [(Int, String)]()
     //----------------------//----------------------
 
     //------
-    // C'est le methode qui dit lorsque le document est prêt la interface
+    // C'est le methode qui dit lorsque le document est prêt dans la interface
     override func viewDidLoad() {
 
     //---
@@ -108,7 +109,7 @@ class ViewController: UIViewController {
     
     //---
     // Il va commander le objet du User Defaults Manager.
-    // USER DEFAULTS MANAGER POUR GARDER LE CREDITS
+    // USER DEFAULTS MANAGER POUR GARDER LE CRÉDITS
         
         if !saveScore.doesKeyExist(theKey: "credits") {
             saveScore.setKey(theValue: 2000 as AnyObject, theKey: "credits")
@@ -117,39 +118,39 @@ class ViewController: UIViewController {
         }
         
         //---
-        // Va creer les objets a partir des images
+        // Responsable pour créer les objets a partir des images
         createCardObjectsFromImages()
         
         //---
-        // Va ramplir tous les tableaux
+        // Va remplir tous les tableaux
         fillUpArrays()
         
         //---
-        // La methode pour dire la amimation comme ela va faire
+        // La méthode pour faire l'animation telle qu'elle sera exécutée.
         prepareAnimations(duration: 0.5, // Dure de l'animation
                           repeating: 5, // Repeat 5 fois
                           cards: arrOfCardImages) // Le tableaux des images
         //---
-        // Visuel des cartes
+        // Cette partie du code était réservée à la définition de la partie visuelle des cartes.
         stylizeSlotImageViews(radius: 10, // Dire les styles des cartes
                               borderWidth: 0.5,
                               borderColor: UIColor.black.cgColor,
                               bgColor: UIColor.yellow.cgColor)
         //---
-        // C'est la methode responsable pour controler les cartes que aparecercem e desaparecem
+        // C'est la méthode responsable du contrôle des cartes qui apparaissent et disparaissent lors de l'exécution du programme.
         stylizeBackgroundViews(radius: 10,
                                borderWidth: nil,
                                borderColor: UIColor.black.cgColor,
                                bgColor: nil)
         //---
-        createDeckOfCards() // La methode que va creer le joue de cartes
+        createDeckOfCards() // La méthode que va créer le jeu de cartes
         //---
     }
     //----------------------//----------------------
     
     //---
     // Methode create deck of cards qui est responsable por le joue de cartes e por gerer tous les 52 cartes.
-    // Va controler le joue avec les repetitions et distribuitions des cartes
+    // Va controler le jeu avec les repetitions et distribuitions les cartes
     func createDeckOfCards() {
         deckOfCards = [(Int, String)]()
         for a in 0...3 {
@@ -162,7 +163,7 @@ class ViewController: UIViewController {
     
     //----------------------//----------------------
     
-    // Methode du styles des imagesviews slots
+    // Méthode du styles des imagesviews slots
     func stylizeSlotImageViews(radius r: CGFloat,
                                borderWidth w: CGFloat,
                                borderColor c: CGColor,
@@ -178,7 +179,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    //Methode pour les backgrounds
+    // Méthode pour les backgrounds
     func stylizeBackgroundViews(radius r: CGFloat,
                                 borderWidth w: CGFloat?,
                                 borderColor c: CGColor,
@@ -194,7 +195,6 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    //
     func fillUpArrays() {
         arrOfCardImages = [card_blur_1, card_blur_2, card_blur_3, card_blur_4,
                            card_blur_5]
@@ -205,7 +205,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    // Va creer les objets dans les cartes blur
+    // Va créer les objets dans les cartes flou
     func createCardObjectsFromImages() {
         card_blur_1 = UIImage(named: "blur_1.png")
         card_blur_2 = UIImage(named: "blur_2.png")
@@ -216,7 +216,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    // Va preparer l'animation du joue
+    // Va préparer l'animation du jeu
     func prepareAnimations(duration d: Double,
                            repeating r: Int,
                            cards c: [UIImage]) {
@@ -224,13 +224,13 @@ class ViewController: UIViewController {
             slotAnimation.animationDuration = d
             slotAnimation.animationRepeatCount = r
             slotAnimation.animationImages = returnRandomBlurCards(arrBlurCards: c)
-            // ArrayBlurCards c'est le tableaux de 5 images blur. Le slotanimation = arrBlurCards c'est comme 5 animations pareille.
+            // ArrayBlurCards c'est le tableaux de 5 images flou. Le slotanimation = arrBlurCards c'est comme 5 animations.
         }
     }
     //----------------------//----------------------
     
     //---
-    //cette methode va faire le melange pour le tableux de cartes blur avexc 5 animations differents.
+    // Cette methode va faire le melange le tableaux de cartes flou avec 5 animations differents.
     func returnRandomBlurCards(arrBlurCards: [UIImage]) -> [UIImage] {
         var arrToReturn = [UIImage]()
         var arrOriginal = arrBlurCards
@@ -244,11 +244,11 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    //La methode du bouton distribuer.
+    // La méthode du bouton distribuer.
     @IBAction func play(_ sender: UIButton) {
         
         //---
-        // Se chance == 0 il va commencer le joue en 0.5
+        // Se chance == 0 il va commencer le jouer en 0.5
         if chances == 0 || dealButton.alpha == 0.5 {
             return
         } else {
@@ -256,8 +256,8 @@ class ViewController: UIViewController {
         }
         
         //---
-        // Quand clique sur le bouton play va selectioner tous les cartes
-        // Le allSelected chancher les cartes e executer les slot animation
+        // Quand click sur le bouton play va selectioner tous les cartes
+        // Le allSelected chercher les cartes e executer les slot animation
         var allSelected = true
         for slotAnimation in arrOfSlotImageViews {
             if slotAnimation.layer.borderWidth != 1.0 {
@@ -271,7 +271,7 @@ class ViewController: UIViewController {
         }
         
         //---
-        // En ce moment commence tous les cartes de l'animmation.
+        // Responsable de l'initiation de toutes les cartes d'animation.
         for slotAnimation in arrOfSlotImageViews {
             if slotAnimation.layer.borderWidth != 1.0 {
                 slotAnimation.startAnimating()
@@ -279,7 +279,9 @@ class ViewController: UIViewController {
         }
 
         //---
-        Timer.scheduledTimer(timeInterval: 2.75, //temp de delay de 2.75 segonde.
+        // Délai de 2,75 secondes.
+        // J'ai augmenté le temps pour éviter les problèmes lors de l'exécution du programme.
+        Timer.scheduledTimer(timeInterval: 2.75,
                              target: self,
                              selector: #selector(displayRandomCards),
                              userInfo: nil,
@@ -287,7 +289,7 @@ class ViewController: UIViewController {
     }
     //----------------------//----------------------
     
-    // Methode que pour faire afficher les cartes au azar ------------
+    // Méthode uniquement pour afficher des cartes aléatoires ------------
     @objc func displayRandomCards() {
         
         //---
@@ -300,7 +302,7 @@ class ViewController: UIViewController {
         displayCards(arrOfCards: arrOfCards)
         
         //---
-        // On clique sur le bouton distribuir la premire fois et fais uns animations
+        // Cliquez sur le bouton pour distribuer la première fois et faire des animations
         permissionToSelectCards = true
         
         //---
@@ -309,11 +311,11 @@ class ViewController: UIViewController {
     }
     //----------------------//----------------------
     
-    // Juste pour preparer pour la prochane main
+    // Juste pour préparer pour la prochaine Hand
     func prepareForNextHand() {
         
         //---
-        // Le createDeckOfCards va recreer tous les paches de cartes de la memme precedant
+        // Le createDeckOfCards va recreer tous les paches de cartes de la même precedant
         if chances == 0 {
             permissionToSelectCards = false
             dealButton.alpha = 0.5
@@ -329,6 +331,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
+    // Fonction qui organise les cartes aux tableaux arrOfCards et les animations
     func displayCards(arrOfCards: [String]) {
         
         //---
@@ -353,7 +356,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    // Methode capable de arriver les cartes vide
+    // Méthode capable de trouver les cartes vide
     func removeEmptySlotsAndReturnArray() -> [(Int, String)] {
         var arrToReturn = [(Int, String)]()
         for card in handToAnalyse {
@@ -366,6 +369,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
+    // Fonction responsable pour créer et organiser des cartes
     func createCards(theHand: [(Int, String)]) -> [String] {
         //---
         let card_1 = "\(theHand[0].0)\(theHand[0].1).png"
@@ -377,6 +381,7 @@ class ViewController: UIViewController {
         //---
     }
     //----------------------//----------------------
+    // Fonction qui renvoie la distribution aléatoire des cartes
     func returnRandomHand() -> [(Int, String)] {
         //---
         var arrToReturn = [(Int, String)]()
@@ -391,7 +396,7 @@ class ViewController: UIViewController {
         //---
     }
     //----------------------//----------------------
-    // Methode que va analiser les cartes et sera responsable por les joues du poker
+    // Méthode que va analyser les cartes et sera responsable pour les joues du poker
     func verifyHand(hand: [(Int, String)]) {
         if pokerHands.royalFlush(hand: hand) {
             calculateHand(times: 250, handToDisplay: "QUINTE FLUSH ROYALE")
@@ -436,7 +441,7 @@ class ViewController: UIViewController {
         }
         
         //---
-        // Serve para descelecionar as cartas. ce comme OF
+        // Utilisé pour abaisser les cartes. ce comme OF
         if arrOfBackgrounds[sender.tag].layer.borderWidth == 0.5 {
             arrOfSlotImageViews[sender.tag].layer.borderWidth = 0.5
             arrOfBackgrounds[sender.tag].layer.borderWidth = 0.0
@@ -444,10 +449,10 @@ class ViewController: UIViewController {
             arrOfKeepLabels[sender.tag].isHidden = true
             
             //---
-            // Va envoier commes les arguments les tags des boutons
+            // Va envoyer commes les arguments les tags des boutons
             manageSelectedCards(theTag: sender.tag, shouldAdd: false)
         } else {
-            // Para afficher les cartes. Ce comme ON
+            // Pour afficher les cartes. Ce comme ON
             arrOfSlotImageViews[sender.tag].layer.borderWidth = 1.0
             arrOfBackgrounds[sender.tag].layer.borderWidth = 0.5
             arrOfBackgrounds[sender.tag].layer.borderColor = UIColor.blue.cgColor
@@ -461,8 +466,8 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    // Va analiser les tags des cartes
-    // Le handToAnalyse Va porter les cartes du tableaux dans cette position
+    // Va analyser les tags des cartes
+    // Le handToAnalyse va porter les cartes du tableaux dans cette position
     func manageSelectedCards(theTag: Int, shouldAdd: Bool) {
         if shouldAdd {
             handToAnalyse[theTag] = theHand[theTag]
@@ -473,7 +478,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     //---
-    // Methode pour les boutons miser 25, 100 et tout.
+    // Méthode pour les boutons miser 25, 100 et tout.
     // Il va contoler les credits, le miser des labels.
     @IBAction func betButtons(_ sender: UIButton) {
         
@@ -483,7 +488,7 @@ class ViewController: UIViewController {
         }
         
         //---
-        // La mesage va effacer apres cliquer sur les options mise
+        // La message va effacer après cliquer sur les options mise
         tempLabel.text = ""
         
         //---
@@ -499,21 +504,21 @@ class ViewController: UIViewController {
         //---
         
         //---
-        // constante que s'apelle the bet que vai receber os jogos escolhidos 25, 100 et tout
+        // Constante que s'appelle theBet qui recevra les jeux choisis 25, 100 et tous
         let theBet = sender.tag
         
         //---
-        // Se la variable credit est plus grand ou egal que bet podera continuer
+        // Si la variable crédit est plus grand ou égal que bet podera continuer
         if credits >= theBet {
-            bet += theBet // Incremento de la fonction
-            credits -= theBet // Decremento de la fonction
+            bet += theBet // Incrément de la fonction
+            credits -= theBet // Décrémentation de la fonction
             betLabel.text = "MISE : \(bet)" // Label pour mise
-            creditsLabel.text = "CRÉDITS : \(credits)" // Label pour les credits
-            dealButton.alpha = 1.0 // Boutton distribuer va distribuer en 1.0 segonds
+            creditsLabel.text = "CRÉDITS : \(credits)" // Label pour les crédits
+            dealButton.alpha = 1.0 // Bouton distribuer distribuera en 1.0 secondes
         }
        
         //---
-        // Methode pour preparer les cartes pour joue
+        // Méthode pour préparer les cartes pour jouer
         resetBackOfCards()
         //---
     }
@@ -521,14 +526,14 @@ class ViewController: UIViewController {
     
     //---
     func resetBackOfCards() {
-        for back in arrOfSlotImageViews { // Boucle avec la variable back que va chercher le slote des tableaux
-            back.image = UIImage(named: "back.png") // Quand cliqur sobre le bouton mise les carte sortu
+        for back in arrOfSlotImageViews { // Boucle avec la variable back que va chercher le solde des tableaux
+            back.image = UIImage(named: "back.png") // Lorsque cliquer sur le bouton, pla carte apparaît à l'extérieur
         }
     }
     //----------------------//----------------------
     
     //---
-    // Tous les cartes que selectione von descelectioner avec cette fonction.
+    // Tous les cartes que sélectionné von descelectioner avec cette fonction.
     func resetCards() {
         //---
         for index in 0...4 {
@@ -544,6 +549,7 @@ class ViewController: UIViewController {
     //----------------------//----------------------
     
     // ------- BOUTON RECOMMENCER -------
+    // Connexion du bouton recommencer qui sera responsable pour redémarrage du jeu.
     
     @IBAction func recommencer(sender: UIButton) {
      

@@ -1,6 +1,8 @@
 //=================================
 import Foundation
 //=================================
+// Classe qui sera responsable de l'enregistrement des informations de jeu
+
 class UserDefaultsManager {
     //---------
     func doesKeyExist(theKey: String) -> Bool {
