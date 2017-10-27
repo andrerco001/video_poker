@@ -1,5 +1,6 @@
 class PokerHands {
     //==============================================
+    // Methode capable de analiser le main et capable renvoier toujours dans valeur booleano
     func royalFlush(hand: [(card: Int, suit: String)]) -> Bool {
         //--
         var cards = [Int]()
